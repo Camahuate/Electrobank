@@ -1,6 +1,8 @@
 import React from 'react';
 import './Promociones.css';
-
+import Promo1 from './imgs/promocion1.jpeg'
+import Promo2 from './imgs/promocion2.jpeg'
+import Promo3 from './imgs/promocion3.jpeg'
 function Promociones() {
   return (
         <>
@@ -9,14 +11,14 @@ function Promociones() {
             <h2 className="tituloVioleta">Promociones y Beneficios</h2>
             <div className="imagen-container">
                 <img
-                src="img/promocion1.jpeg"
+                src={Promo1}
                 alt="Promoción 1"
                 className="promo-img"
                 />
             </div>
             <div className="imagen-container">
                 <img
-                src="img/promocion3.jpeg"
+                src={Promo3}
                 alt="Promocion 3"
                 className="promo-img"
                 />
@@ -27,7 +29,7 @@ function Promociones() {
             </div>
             <div className="promocion">
             <img
-                src="img/promocion2.jpeg"
+                src={Promo2}
                 alt="Promoción 2"
                 className="promo-img-100"
             />
