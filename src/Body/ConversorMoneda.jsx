@@ -86,7 +86,7 @@ function ConversorMoneda() {
       </div>
       <br />
       <br />
-      <button className="btn-violeta" onClick={ConversorMoneda}>
+      <button className="btn-violeta" onClick={convertCurrency}>
         Convertir
       </button>
       <p>
