@@ -1,3 +1,4 @@
+
 .pie-depagina {
     background-color: #F35821;
     padding: 20px;
@@ -10,12 +11,6 @@
     text-align: center;
     padding: 20px;
 }
-.footer-links a {
-    text-decoration: none;
-    color: white;
-    margin-right: 20px;
-}
-
 .social-icons a {
     display: inline-block;
     margin-right: 10px;
@@ -25,6 +20,13 @@
     width: 20px;
     height: 20px;
 }
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+
 .pie-depagina ul {
     list-style-type: none;
 }
