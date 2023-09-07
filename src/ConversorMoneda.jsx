@@ -94,6 +94,7 @@ function ConversorMoneda() {
           <span id="result">{result}</span>
         )}
       </p>
+      <p>HOLA</p>
     </div>
   );
 }
