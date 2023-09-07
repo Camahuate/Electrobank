@@ -1,5 +1,5 @@
 import React from 'react';
-import Electrobank from './imgs/ELECTOBANK-logo.png'
+import Electrobank from './Header/imgs/ELECTOBANK-logo.png'
 
 function LoginForm() {
   const mostrarMensajeYRedirigir = (event) => {
@@ -7,7 +7,6 @@ function LoginForm() {
     alert("Acceso concedido");
     // Lógica para mostrar mensaje y redirigir aquí
   };  
-
   return (
     <div className="body-login">
       <div className="login-container">
@@ -19,7 +18,7 @@ function LoginForm() {
           <label htmlFor="contrasena">Contraseña:</label>
           <input type="password" id="contrasena" placeholder="Contraseña" required />
           <br />
-          <button type="submit" className="btn-violeta">Iniciar Sesión</button>
+          <button type="submit" className="btn-violeta" >Iniciar Sesión</button>
         </form>
       </div>
     </div>

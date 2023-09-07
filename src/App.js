@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import LoginForm from './LoginForm';
-import Header from './Header';
-import MenuLateral from './MenuLateral';
-import Promociones from './Promociones';
-import Informacion from './Informacion';
-import ConversorMoneda from './ConversorMoneda';
-import Footer from './Footer'; 
+import Header from './Header/Header';
+import MenuLateral from './MenuLateral/MenuLateral';
+import Promociones from './Body/Promociones';
+import Informacion from './Body/Informacion';
+import ConversorMoneda from './Body/ConversorMoneda';
+import Footer from './Footer/Footer'; 
 
 function App() {
   return (
@@ -21,7 +21,11 @@ function App() {
       <Footer />
     </div>
   );
-  /*return (
+  
+}
+
+export default App;
+/*return (
     <div>
       <header>
         <link rel="stylesheet" href="index.css" />
@@ -29,6 +33,3 @@ function App() {
       <LoginForm />
     </div>
   );*/
-}
-
-export default App;
