@@ -86,15 +86,14 @@ function ConversorMoneda() {
       </div>
       <br />
       <br />
-      <button className="btn-violeta" onClick={ConversorMoneda}>
-        Convertir
+      <button className="btn-violeta" onClick={convertCurrency}>
+      Convertir
       </button>
       <p>
         {result && (
           <span id="result">{result}</span>
         )}
       </p>
-      <p>HOLA</p>
     </div>
   );
 }
