@@ -1,11 +1,10 @@
 import React from 'react';
-import Electrobank from './Header/imgs/ELECTOBANK-logo.png'
+import Electrobank from './Header/imgs/ELECTOBANK-logo.png';
 
 function LoginForm() {
   const mostrarMensajeYRedirigir = (event) => {
     event.preventDefault();
     alert("Acceso concedido");
-    // Lógica para mostrar mensaje y redirigir aquí
   };  
   return (
     <div className="body-login">

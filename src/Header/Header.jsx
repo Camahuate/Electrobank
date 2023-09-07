@@ -27,7 +27,6 @@ function Header() {
   return (
     <header className="encabezado">
       <h1><img className="logo" src={Electrobank} alt="Electrobank Logo" /></h1>
-      <button className="btn-violeta"><a href="index.html">Cerrar sesión</a></button>
       <nav>
         <div className="menu-icon" onClick={toggleMenu}>
           <div className="bar" id="bar1" />
