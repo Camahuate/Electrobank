@@ -7,6 +7,7 @@ import Promociones from './Promociones';
 import Informacion from './Informacion';
 import ConversorMoneda from './ConversorMoneda';
 import Footer from './Footer'; 
+import Prestamos from './Prestamos';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Promociones />
         <Informacion />
         <ConversorMoneda />
+        <Prestamos />
       </main>
       <Footer />
     </div>

@@ -12,13 +12,13 @@ function Footer() {
             </div>
             <div className="social-icons">
                 <a href="https://www.facebook.com/" target="_blank">
-                <img src="img/facebook.svg" alt="Facebook" />
+                <img src="imgs/facebook.svg" alt="Facebook" />
                 </a>
                 <a href="https://www.instagram.com/" target="_blank">
                 <img src="img/instagram.svg" alt="Instagram" />
                 </a>
                 <a href="https://www.linkedin.com/" target="_blank">
-                <img src="img/linkedin.svg" alt="LinkedIn" />
+                <img src="Electrobank\src\imgs\linkedin.svg" alt="LinkedIn" />
                 </a>
             </div>
         </>
