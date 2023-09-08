@@ -39,14 +39,18 @@
 }
 /* clase del login */
 .body-login {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #F35821;
-    margin: 0;
-    padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: fixed; /* Establecer la posición fija */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ancho al 100% de la ventana */
+  height: 100%; /* Altura al 100% de la ventana */
+  background-color: #F35821;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 } 
 .login-container {
     width: 300px;
